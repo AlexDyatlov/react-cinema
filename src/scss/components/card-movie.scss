@@ -1,0 +1,27 @@
+.card__inner{
+  height: 100vh;
+  display: flex;
+  max-width: 810px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.card__movie{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: #adaeb9;
+  font-weight: 300;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+  0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  img{
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  }
+  .movie__column{
+    padding-left: 20px;
+  }
+}

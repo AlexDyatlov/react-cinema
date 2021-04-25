@@ -1,3 +1,5 @@
+@import 'components/all';
+
 * {
   box-sizing: border-box;
 }
@@ -8,15 +10,15 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
-  height: 100%;
 }
-
 html,
-body,
+body{
+  overflow-x: hidden;
+}
 .container{
-  min-height: 100%;
-  display: flex;
-  justify-content: center;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .loader {
@@ -26,3 +28,5 @@ body,
   align-items: center;
   justify-content: center;
 }
+
+@import 'media';
